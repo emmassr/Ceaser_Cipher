@@ -12,8 +12,7 @@ def caesar_cipher (string, number)
 
   end
 
-
-  print "What is the secert code??"
+  print "Please enter what you need to code:"
   code = gets.chomp
 
   puts caesar_cipher( code, 5 )
